@@ -1,6 +1,6 @@
 {
   "name": "nemo-label-studio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Data Labeling Tool that is backend agnostic and can be embedded into your applications",
   "homepage": "https://labelstud.io",
   "author": {
@@ -44,8 +44,7 @@
     "test:coverage": "yarn test -- --coverage",
     "test:watch": "react-scripts test",
     "test": "yarn jest src",
-    "coverage:merge": "npx nyc merge coverage/ coverage/coverage.json && rm -f coverage/*.coverage.json",
-    "postinstall": "sh scripts/postinstall.sh"
+    "coverage:merge": "npx nyc merge coverage/ coverage/coverage.json && rm -f coverage/*.coverage.json"
   },
   "husky": {
     "hooks": {
