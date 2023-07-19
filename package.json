@@ -1,10 +1,10 @@
 {
-  "name": "@nemo/label-studio",
-  "version": "1.4.0",
+  "name": "nemo-label-studio",
+  "version": "1.0.0",
   "description": "Data Labeling Tool that is backend agnostic and can be embedded into your applications",
   "homepage": "https://labelstud.io",
   "author": {
-    "name": "Nemo",
+    "name": "nemowilo",
     "url": "https://github.com/LeKhacToan"
   },
   "license": "Apache-2.0",
@@ -37,7 +37,6 @@
     "docs:generate": "node scripts/create-docs.js",
     "lint:write": "eslint --debug src/ --fix",
     "lint": "eslint src/",
-    "prepublishOnly": "yarn run test && yarn run build:final",
     "prettier-styles": "prettier --write src/**/*.{css,scss}",
     "prettier": "prettier --write src/**/*.js",
     "size": "yarn run build && size-limit",
