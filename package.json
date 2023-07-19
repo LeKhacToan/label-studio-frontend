@@ -1,6 +1,6 @@
 {
   "name": "nemo-label-studio",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Data Labeling Tool that is backend agnostic and can be embedded into your applications",
   "homepage": "https://labelstud.io",
   "author": {
@@ -12,8 +12,8 @@
     "type": "git",
     "url": "https://github.com/LeKhacToan/label-studio-frontend.git"
   },
-  "browser": "build/static/js/main.js",
-  "main": "build/static/js/main.js",
+  "browser": "build/main.js",
+  "main": "build/main.js",
   "files": [
     "build/",
     "images/",
@@ -22,7 +22,7 @@
   ],
   "size-limit": [
     {
-      "path": "build/static/js/*.js"
+      "path": "build/*.js"
     }
   ],
   "scripts": {
