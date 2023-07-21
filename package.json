@@ -1,6 +1,6 @@
 {
   "name": "nemo-label-studio",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Data Labeling Tool that is backend agnostic and can be embedded into your applications",
   "homepage": "https://labelstud.io",
   "author": {
